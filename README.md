@@ -14,3 +14,9 @@
 - Press run in Visual Studio
 - Your broswer should open to the swagger page. It will probably complain about the certificate, but accept and continue.
 - From the swagger page you can test the API, or you can use Insomnia or Postman or something else.
+
+# Thoughts
+- The linking between the different types of employees in code is not right. This was my first attempt at a database first approach with EF Core. I'm more familiar with Code first.
+  - The models in the database project were generated using EF Core's cli scaffolding command. I didn't touch those models at all.
+- Lacking more unit tests. Could always have more.
+- I'd probably use a dacpac over plain script files normally.
